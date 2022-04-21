@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-qe&lz5rw1&u0wb^tnd3t2_ly$y3n@k*shy3rw#0ei8)vak*06)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mycrmbybek.herokuapp.com/']
 
 
 # Application definition
@@ -158,4 +158,3 @@ EMAIL_HOST_USER="tillo5255@gmail.com"
 EMAIL_HOST_PASSWORD="Uk280560982168"
 EMAIL_USE_TLS=True
 DEFAULT_FROM_EMAIL="Student management System <tillo5255@gmail.com>"
-

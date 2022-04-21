@@ -157,3 +157,9 @@ EMAIL_HOST_USER="tillo5255@gmail.com"
 EMAIL_HOST_PASSWORD="Uk280560982168"
 EMAIL_USE_TLS=True
 DEFAULT_FROM_EMAIL="Student management System <tillo5255@gmail.com>"
+
+
+
+import dj_database_url
+prod_db=dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(prod_db)
